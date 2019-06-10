@@ -18,9 +18,28 @@
     padding: 20px;
     display: flex;
 }
+@media (max-width: 800px) {
+    .main {
+        flex-direction: column;
+    }
+}
 .main .plus-div {
     width: 50%;
     padding-right: 20px;
+}
+@media (max-width: 800px) {
+    .main .plus-div {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+.main .plus-div h2 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+.main .plus-div h2 span {
+    font-family: 'Lobster', cursive;
+    color: #00b894;
 }
 .main .plus-div .form {
     width: 100%;
@@ -31,13 +50,11 @@
     display: flex;
     justify-content: space-between;
 }
-.main .plus-div h2 {
-    margin-bottom: 20px;
-    color: #2d3436;
-}
-.main .plus-div h2 span {
-    font-family: 'Lobster', cursive;
-    color: #00b894;
+@media (max-width: 450px) {
+    .main .plus-div .form {
+        flex-direction: column;
+        padding: 10px;
+    }
 }
 .main .plus-div .form input {
     width: 40%;
@@ -51,6 +68,16 @@
     background-color: #2d3436;
     color: #fff;
 }
+@media (max-width: 450px) {
+    .main .plus-div .form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .main .plus-div .form input:last-child {
+        width: 40%;
+        margin-bottom: 0;
+    }
+}
 .main .plus-div .img-div {
     width: 100%;
     height: 400px;
@@ -59,9 +86,19 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+@media (max-width: 800px) {
+    .main .plus-div .img-div {
+        display: none;
+    }
+}
 
 .main .table-div {
     width: 50%;
+}
+@media (max-width: 800px) {
+    .main .table-div {
+        width: 100%;
+    }
 }
 .main .table-div h2 {
     margin-bottom: 20px;
@@ -75,6 +112,11 @@
     border-radius: 10px;
     border-collapse: collapse;
     width: 100%;
+}
+@media (max-width: 450px) {
+    .main .table-div table {
+        font-size: 0.8rem;
+    }
 }
 .main .table-div table, th, td {
     padding: 10px;
