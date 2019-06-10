@@ -1,0 +1,22 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "s todo list",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "todo",
+    "list",
+    "lista",
+    "de",
+    "afazeres",
+    "afazeres",
+    "lista"
+  ],
+  "author": "Jhonni Pinto",
+  "license": "MIT"
+}

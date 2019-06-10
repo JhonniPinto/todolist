@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.title {
+    background-color: #2d3436;
+    color: #00b894;
+    padding: 10px 20px;
+}
+.title span {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: #fff;
+}
+.main {
+    padding: 20px;
+    display: flex;
+}
+.main .plus-div {
+    width: 50%;
+    padding-right: 20px;
+}
+.main .plus-div .form {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #00b894;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .plus-div h2 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+.main .plus-div h2 span {
+    font-family: 'Lobster', cursive;
+    color: #00b894;
+}
+.main .plus-div .form input {
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.main .plus-div .form input:last-child {
+    width: 15%;
+    background-color: #2d3436;
+    color: #fff;
+}
+.main .plus-div .img-div {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/todo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main .table-div {
+    width: 50%;
+}
+.main .table-div h2 {
+    margin-bottom: 20px;
+    color: #2d3436; 
+}
+.main .table-div h2 span {
+    font-family: 'Lobster', cursive;
+    color: #00b894;
+}
+.main .table-div table {
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.main .table-div table, th, td {
+    padding: 10px;
+    border-bottom: 1px solid #00b894;
+}
+.main .table-div table th, td {
+    text-align: left;
+}
+.main .table-div input {
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00b894;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.main .table-div input:hover {
+    background-color: #00b894cc;
+}

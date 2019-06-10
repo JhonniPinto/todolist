@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1 class="title">Todo<span>List</span></h1>
+    
+    <div class="main">
+        <div class="plus-div">
+            <h2><span>Add</span> task</h2>
+            <div class="form">
+                <input type="text" id="inTask" placeholder="Add a task" autofocus>
+                
+                <input type="text" id="inNote" placeholder="Add a note">
+                
+                <input type="button" value="Add" id="btAdd">
+            </div>
+            <div class="img-div"></div>
+        </div>
+
+        <div class="table-div">
+            <h2><span>Listed</span> tasks</h2>
+            <table id="tbTasks">
+                <tr>
+                    <th>Task</th>
+                    <th>Note</th>
+                    <th><label><input type="checkbox" id="ckAll"> All</label></th>
+                </tr>
+            </table>
+            <input type="button" value="Delete selected" id="btDelete">
+        </div>
+    </div>
+
+    <script src="./assets/js/todoScript.js"></script>
+</body>
+</html>
