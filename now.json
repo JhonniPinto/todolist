@@ -1,8 +1,7 @@
 {
     "version": 2, 
     "builds": [
-        { "src": "todoScript.js", "use": "@now/node-server" },
-        { "src": "index.html", "use": "@now/static" },
+        { "src": "todoScript.js", "use": "@now/node" },
         { "src": "style.css", "use": "@now/static" } 
    ] 
 }
